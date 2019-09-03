@@ -1,0 +1,73 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#record-sales {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#record-sales:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#record-sales:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#record-sales Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+.root{
+    -fx-font-size: 16pt;
+    -fx-font-family: "Courier New";
+    -fx-base: rgb(132, 145, 47);
+    -fx-background: rgb(255, 255, 204);
+}
+
+.vbox  {
+    -fx-border-color: black;
+    -fx-padding: 0;
+    -fx-spacing: 10;
+}
+
+#label-control  {
+  -fx-border-color: black;
+  -fx-background-color: #ff33cc;
+  -fx-font-weight: bold;
+  -fx-font-size: 1.1em;
+}
+
+.label  {
+    -fx-min-width: 100;
+}
+
+
+.text-field{
+    -fx-min-width: 100;
+    -fx-max-height: 50;
+    -fx-background-color: #e6e6e6;
+}
+
+#mistake {
+    -fx-min-width: 100;
+    -fx-max-height: 50;
+    -fx-background-color: #ff3300;
+}
+
+#correct {
+    -fx-min-width: 100;
+    -fx-max-height: 50;
+    -fx-background-color: #00cc00;
+}
+
