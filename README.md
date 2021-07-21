@@ -1,4 +1,4 @@
-#### Discription
+#### Description
 Program that helps you enhance your mental arithmetic skills by practicing and customizing your problems for supporting different levels of difficulty.
 
 
